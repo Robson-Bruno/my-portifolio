@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaWhatsapp, } from "react-icons/fa"
+import avatar from '../../assets/img/avatar.jpg'
 
 export default function Hero() {
   return (
@@ -42,7 +43,7 @@ export default function Hero() {
 
         <div className="flex-1 flex justify-center">
           <img
-            src="./src/assets/img/avatar.jpg"
+            src={avatar}
             alt="Guilherme avatar"
             className=""
           />

@@ -1,3 +1,7 @@
+import github from '../../assets/img/github.png'
+import agencia from '../../assets/img/agencia.png'
+import pokedex from '../../assets/img/pokedex.png'
+
 interface Projeto {
   id: number
   name: string
@@ -15,7 +19,7 @@ export default function Projects() {
       name: "Agência - XPTO",
       desc: "Landing Page responsiva para Agência XPTO, com design limpo e carrossel de projetos, desenvolvida em HTML, CSS e JavaScript puro para oferecer performance e estética alinhadas.",
       stack: "HTML5, CSS3, JavaScript (vanilla).",
-      img: "./src/assets/img/agencia.png",
+      img: agencia,
       link: "https://guilherme-henry-dev.github.io/Landing-Page-Agencia-XPTO",
       repo: "https://github.com/Guilherme-Henry-Dev/Landing-Page-Agencia-XPTO"
     },
@@ -24,7 +28,7 @@ export default function Projects() {
       name: "GitHub Fetch API",
       desc: "App para buscar perfis e repositórios do GitHub. Consome a API do GitHub e exibe dados em tempo real com TypeScript.",
       stack: "HTML, CSS, JavaScript, Fetch API.",
-      img: "./src/assets/img/github.png",
+      img: github, 
       link: "https://guilherme-henry-dev.github.io/GitHub-Fetch-API",
       repo: "https://github.com/Guilherme-Henry-Dev/GitHub-Fetch-API"
     },
@@ -33,7 +37,7 @@ export default function Projects() {
       name: "My Pokédex",
       desc: "SPA criado em React + TypeScript, consumindo a API pública de Pokémon e exibindo dados em uma UI interativa.",
       stack: "React, TypeScript, TailwindCSS, Context API.",
-      img: "./src/assets/img/pokedex.png",
+      img: pokedex, 
       link: "https://github.com/Guilherme-Henry-Dev/my-pokedex",
       repo: "https://github.com/Guilherme-Henry-Dev/my-pokedex"
     }
@@ -63,6 +67,7 @@ export default function Projects() {
                 <a
                   href={p.link}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-blue-500 rounded-full hover:bg-green-400 transition"
                 >
                   🔗
@@ -70,6 +75,7 @@ export default function Projects() {
                 <a
                   href={p.repo}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="p-3 bg-gray-700 rounded-full hover:bg-gray-600 transition"
                 >
                   🐙
