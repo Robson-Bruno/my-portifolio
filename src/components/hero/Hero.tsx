@@ -42,7 +42,7 @@ export default function Hero() {
 
         <div className="flex-1 flex justify-center">
           <img
-            src="./src/assets/avatar.jpg"
+            src="./src/assets/img/avatar.jpg"
             alt="Guilherme avatar"
             className=""
           />

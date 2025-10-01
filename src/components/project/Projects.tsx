@@ -15,7 +15,7 @@ export default function Projects() {
       name: "Agência - XPTO",
       desc: "Landing Page responsiva para Agência XPTO, com design limpo e carrossel de projetos, desenvolvida em HTML, CSS e JavaScript puro para oferecer performance e estética alinhadas.",
       stack: "HTML5, CSS3, JavaScript (vanilla).",
-      img: "../public/img/agencia-xpto.png",
+      img: "./src/assets/img/agencia.png",
       link: "https://guilherme-henry-dev.github.io/Landing-Page-Agencia-XPTO",
       repo: "https://github.com/Guilherme-Henry-Dev/Landing-Page-Agencia-XPTO"
     },
@@ -24,7 +24,7 @@ export default function Projects() {
       name: "GitHub Fetch API",
       desc: "App para buscar perfis e repositórios do GitHub. Consome a API do GitHub e exibe dados em tempo real com TypeScript.",
       stack: "HTML, CSS, JavaScript, Fetch API.",
-      img: "../public/img/github.png",
+      img: "./src/assets/img/github.png",
       link: "https://guilherme-henry-dev.github.io/GitHub-Fetch-API",
       repo: "https://github.com/Guilherme-Henry-Dev/GitHub-Fetch-API"
     },
@@ -33,7 +33,7 @@ export default function Projects() {
       name: "My Pokédex",
       desc: "SPA criado em React + TypeScript, consumindo a API pública de Pokémon e exibindo dados em uma UI interativa.",
       stack: "React, TypeScript, TailwindCSS, Context API.",
-      img: "../public/img/my-pokedex.png",
+      img: "./src/assets/img/pokedex.png",
       link: "https://github.com/Guilherme-Henry-Dev/my-pokedex",
       repo: "https://github.com/Guilherme-Henry-Dev/my-pokedex"
     }
