@@ -38,7 +38,7 @@ export default function Projects() {
       desc: "SPA criado em React + TypeScript, consumindo a API pública de Pokémon e exibindo dados em uma UI interativa.",
       stack: "React, TypeScript, TailwindCSS, Context API.",
       img: pokedex, 
-      link: "https://github.com/Guilherme-Henry-Dev/my-pokedex",
+      link: "https://my-pokedex-omega-nine.vercel.app",
       repo: "https://github.com/Guilherme-Henry-Dev/my-pokedex"
     }
   ]
