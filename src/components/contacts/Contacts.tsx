@@ -7,6 +7,7 @@ export default function Contact() {
         <a href="mailto:guilherme.henrydesigner@gmail.com" className="hover:text-blue-900">Email</a>
         <a href="https://github.com/Guilherme-Henry-Dev" target="_blank" className="hover:text-blue-900">GitHub</a>
         <a href="https://www.linkedin.com/in/guilhermehenryf" target="_blank" className="hover:text-blue-900">LinkedIn</a>
+        <a href="https://wa.me/5531987985524" target="_blank" className="hover:text-blue-900">WhatsApp</a>
       </div>
     </section>
   )
