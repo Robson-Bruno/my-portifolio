@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 bg-white shadow-md z-50">
       <nav className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <h1 className="text-2xl font-bold text-blue-900">Guilherme Henry</h1>
+        <h1 className="text-2xl font-bold text-blue-900">Robson Bruno</h1>
 
         <ul className="hidden md:flex gap-6 text-gray-700">
           <li><button onClick={() => handleScroll("home")} className="hover:text-blue-900">Home</button></li>
