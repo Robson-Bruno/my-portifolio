@@ -8,7 +8,7 @@ export default function Hero() {
         
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Olá, eu sou <span className="text-blue-900">Guilherme</span>
+            Olá, eu sou <span className="text-blue-900">Robson</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-6">
             Desenvolvedor <span className="text-blue-900">Full-Stack</span>
