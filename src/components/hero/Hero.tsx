@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaWhatsapp, } from "react-icons/fa"
-import avatar from '../../assets/img/Imagem do WhatsApp de 2025-08-11 à(s) 15.34.50_ee8f5f20 - Editado - Editado.png'
+import avatar from '../../assets/img/Red Gradient Profile Photo Instagram Post.png'
 
 export default function Hero() {
   return (
